@@ -1,0 +1,126 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lua523 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zoand\AppData\Local\Temp\RSPB394.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/lua523.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\zoand\Desktop\lua523\lapi.c"
+"C:\Users\zoand\Desktop\lua523\lauxlib.c"
+"C:\Users\zoand\Desktop\lua523\lbaselib.c"
+"C:\Users\zoand\Desktop\lua523\lbitlib.c"
+"C:\Users\zoand\Desktop\lua523\lcode.c"
+"C:\Users\zoand\Desktop\lua523\lcorolib.c"
+"C:\Users\zoand\Desktop\lua523\lctype.c"
+"C:\Users\zoand\Desktop\lua523\ldblib.c"
+"C:\Users\zoand\Desktop\lua523\ldebug.c"
+"C:\Users\zoand\Desktop\lua523\ldo.c"
+"C:\Users\zoand\Desktop\lua523\ldump.c"
+"C:\Users\zoand\Desktop\lua523\lfunc.c"
+"C:\Users\zoand\Desktop\lua523\lgc.c"
+"C:\Users\zoand\Desktop\lua523\linit.c"
+"C:\Users\zoand\Desktop\lua523\liolib.c"
+"C:\Users\zoand\Desktop\lua523\llex.c"
+"C:\Users\zoand\Desktop\lua523\lmathlib.c"
+"C:\Users\zoand\Desktop\lua523\lmem.c"
+"C:\Users\zoand\Desktop\lua523\loadlib.c"
+"C:\Users\zoand\Desktop\lua523\lobject.c"
+"C:\Users\zoand\Desktop\lua523\lopcodes.c"
+"C:\Users\zoand\Desktop\lua523\loslib.c"
+"C:\Users\zoand\Desktop\lua523\lparser.c"
+"C:\Users\zoand\Desktop\lua523\lstate.c"
+"C:\Users\zoand\Desktop\lua523\lstring.c"
+"C:\Users\zoand\Desktop\lua523\lstrlib.c"
+"C:\Users\zoand\Desktop\lua523\ltable.c"
+"C:\Users\zoand\Desktop\lua523\ltablib.c"
+"C:\Users\zoand\Desktop\lua523\ltm.c"
+"C:\Users\zoand\Desktop\lua523\lundump.c"
+"C:\Users\zoand\Desktop\lua523\lvm.c"
+"C:\Users\zoand\Desktop\lua523\lzio.c"
+]
+Creating command line "cl.exe @C:\Users\zoand\AppData\Local\Temp\RSPB394.tmp" 
+Creating temporary file "C:\Users\zoand\AppData\Local\Temp\RSPB395.tmp" with contents
+[
+/nologo /out:"Release\lua523.lib" 
+.\Release\lapi.obj
+.\Release\lauxlib.obj
+.\Release\lbaselib.obj
+.\Release\lbitlib.obj
+.\Release\lcode.obj
+.\Release\lcorolib.obj
+.\Release\lctype.obj
+.\Release\ldblib.obj
+.\Release\ldebug.obj
+.\Release\ldo.obj
+.\Release\ldump.obj
+.\Release\lfunc.obj
+.\Release\lgc.obj
+.\Release\linit.obj
+.\Release\liolib.obj
+.\Release\llex.obj
+.\Release\lmathlib.obj
+.\Release\lmem.obj
+.\Release\loadlib.obj
+.\Release\lobject.obj
+.\Release\lopcodes.obj
+.\Release\loslib.obj
+.\Release\lparser.obj
+.\Release\lstate.obj
+.\Release\lstring.obj
+.\Release\lstrlib.obj
+.\Release\ltable.obj
+.\Release\ltablib.obj
+.\Release\ltm.obj
+.\Release\lundump.obj
+.\Release\lvm.obj
+.\Release\lzio.obj
+]
+Creating command line "link.exe -lib @C:\Users\zoand\AppData\Local\Temp\RSPB395.tmp"
+<h3>Output Window</h3>
+Compiling...
+lapi.c
+lauxlib.c
+lbaselib.c
+lbitlib.c
+lcode.c
+lcorolib.c
+lctype.c
+ldblib.c
+ldebug.c
+ldo.c
+C:\Users\zoand\Desktop\lua523\ldo.c(423) : warning C4244: '=' : conversion from 'long ' to 'unsigned char ', possible loss of data
+ldump.c
+lfunc.c
+lgc.c
+linit.c
+liolib.c
+llex.c
+lmathlib.c
+lmem.c
+loadlib.c
+lobject.c
+lopcodes.c
+loslib.c
+lparser.c
+lstate.c
+lstring.c
+lstrlib.c
+ltable.c
+ltablib.c
+ltm.c
+lundump.c
+lvm.c
+lzio.c
+Creating library...
+
+
+
+<h3>Results</h3>
+lua523.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
